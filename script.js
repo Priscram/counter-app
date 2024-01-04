@@ -43,7 +43,7 @@ function counterIncrement(productName, description, count, unit) {
     counterEl.textContent = `Your count is: ${count} ${unit} of ${description} ${productName}`;
 
     if (!count) {
-        alert("Quantity count cannot be empty!");
+        alert("Quantity count cannot be empty! You need to refresh the page to start over again. We are working on the bug to fix empty submission.");
         return false;
     } else {
         return true;
