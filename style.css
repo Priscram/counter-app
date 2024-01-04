@@ -1,0 +1,43 @@
+* {
+    background-color: rgb(57, 28, 16);
+}
+
+h1 {
+    text-align: left;
+    color: white;
+}
+
+h3 {
+    text-align: left;
+    color: white;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: rgb(241, 236, 236);
+    align-self: center;
+    color: red;
+    text-align: center;
+}
+
+button {
+    width: 400px;
+    height: 50px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    align-self: center;
+    text-align: center;
+    background-color: rgb(210, 196, 196);
+    color: red
+}
+
+#number-input:required:valid {
+    border: 3px solid green;
+}
+
+#number-input:required:invalid {
+    border: 3px solid red;
+}

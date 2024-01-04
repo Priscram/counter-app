@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Counter App</title>
+</head>
+
+<body>
+
+    <h1 id="counter-el">Your Count is: 0 of unit description product name</h1>
+    <input class="text-input-product" name="product-name" placeholder="Product Name" />
+    <br/>
+    <input class="text-input-description" name="product-description" placeholder="Description" />
+    <br/>
+    <input id="number-input" type="number" required pattern="\d+" name="product-count" placeholder="Quantity Count" />
+    <br/>
+    <input class="text-input-unit-measure" name="unit-measure" placeholder="Unit" />
+    <br/>
+    <button id="submit" onclick="counterIncrement()">INCREMENT</button>
+    <br />
+    <button id="save-el" onclick="save()">SAVE</button>
+    <h3 id="count-log-el">Count Log: </h3>
+    <button id="count-sum-el" onclick="sumArray()">SUM </button>
+    <h3 id="display-sum">Total: </h3>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
